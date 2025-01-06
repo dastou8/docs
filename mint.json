@@ -1,53 +1,30 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Documentation admin NBHPA",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/light.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#003172",
+    "light": "#0058A6",
+    "dark": "#003172",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#003172",
+      "to": "#0058A6"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@nbhpa.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Tableau de bord",
+    "url": "https://admin.nbhpa.com"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
   "navigation": [
     {
       "group": "Get Started",
@@ -58,20 +35,15 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Modules",
       "pages": [
+        "modules/bookings",
         "essentials/markdown",
         "essentials/code",
         "essentials/images",
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
       ]
     },
     {
@@ -84,8 +56,16 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
-  }
+    "facebook": "https://x.com/mintlify"
+  },
+  "versions": [
+    {
+      "name": "English",
+      "locale": "en"
+    },
+    {
+      "name": "French",
+      "locale": "fr"
+    }
+  ]
 }
