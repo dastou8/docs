@@ -27,24 +27,32 @@
   },
   "navigation": [
     {
+      "group": "Commencer",
+      "pages": [
+        "introduction_fr",
+        "quickstart_fr"
+      ],
+      "version": "Français"
+    },
+    {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+        "introduction_en"
+      ],
+      "version": "English"
     },
     {
       "group": "Modules",
       "pages": [
-        "modules/bookings",
+        "modules/bookings_fr",
         "essentials/markdown",
         "essentials/code",
         "essentials/images",
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets"
-      ]
+      ],
+      "version": "Français"
     },
     {
       "group": "Endpoint Examples",
@@ -52,20 +60,21 @@
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
-      ]
+      ],
+      "version": "Français"
     }
   ],
   "footerSocials": {
-    "facebook": "https://x.com/mintlify"
+    "facebook": "https://www.facebook.com/groups/394922431100063"
   },
   "versions": [
     {
-      "name": "English",
-      "locale": "en"
+      "name": "Français",
+      "locale": "fr"
     },
     {
-      "name": "French",
-      "locale": "fr"
+      "name": "English",
+      "locale": "en"
     }
   ]
 }
